@@ -1,3 +1,3 @@
 Collection of Alexa skills.
 
--  timestable skil
+-  timestable skill
