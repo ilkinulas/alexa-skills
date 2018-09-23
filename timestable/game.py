@@ -18,7 +18,7 @@ def new_game():
     return question(welcome_msg)
 
 
-@ask.intent("YesIntent")
+@ask.intent('AMAZON.YesIntent')
 def next_round():
     _, _, msg = new_question(randint(0, 9), randint(0, 9))
     return question(msg)
