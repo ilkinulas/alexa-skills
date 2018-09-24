@@ -46,12 +46,12 @@ def stop():
 
 
 @ask.intent('AMAZON.CancelIntent')
-def stop():
+def cancel():
     return stop()
 
 
 @ask.intent('AMAZON.HelpIntent')
-def stop():
+def help():
     help_text = render_template('help')
     return statement(help_text)
 
