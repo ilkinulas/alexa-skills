@@ -53,7 +53,7 @@ def cancel():
 @ask.intent('AMAZON.HelpIntent')
 def help():
     help_text = render_template('help')
-    return statement(help_text)
+    return question(help_text)
 
 
 def new_question(first_number, second_number):
