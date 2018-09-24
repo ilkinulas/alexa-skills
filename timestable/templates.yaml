@@ -9,3 +9,5 @@ win: Good job!
 lose: Sorry, {{ response }} is the wrong answer.
 
 bye: Goodbye.
+
+help: This Alexa skill teaches you the times table. It will ask you questions like "What is 5 times 4?". Try to say the correct number.

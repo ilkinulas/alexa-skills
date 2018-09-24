@@ -45,6 +45,17 @@ def stop():
     return statement(bye_text)
 
 
+@ask.intent('AMAZON.CancelIntent')
+def stop():
+    return stop()
+
+
+@ask.intent('AMAZON.HelpIntent')
+def stop():
+    help_text = render_template('help')
+    return statement(help_text)
+
+
 def new_question(first_number, second_number):
     question_msg = render_template(
         'question',
